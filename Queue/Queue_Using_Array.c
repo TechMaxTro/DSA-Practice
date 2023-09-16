@@ -20,7 +20,7 @@ void insert(){
     }  
     else   
     {  
-        rear = rear+1;  
+        rear++;  
     }  
     queue[rear] = item;  
     printf("\nValue inserted ");    
@@ -44,9 +44,9 @@ void delete(){
         }  
         else   
         {  
-            front = front + 1;  
+            front++;  
         }  
-        printf("\nvalue deleted\n");  
+        printf("\nValue deleted\n");  
     }  
 }
 void display(){
