@@ -24,7 +24,7 @@ int main()
         printf("\n\n*********Main Menu*********\n");
         printf("\nChoose one option from the following list ...\n");
         printf("\n===============================================\n");
-        printf("\n1.Insert in begining\n2.Insert at last\n");
+        printf("\n1.Insert in beginning\n2.Insert at last\n");
         printf("3.Insert at any random location\n");
         printf("4.Delete from Beginning\n");  
         printf("5.Delete from last\n6.Delete node after specified location\n7.Search for an element\n8.Show\n9.Exit \n");  
@@ -160,7 +160,7 @@ void begin_delete()
         ptr = head;
         head = ptr->next;
         free(ptr);
-        printf("\nNode deleted from the begining ...\n");
+        printf("\nNode deleted from the beginning ...\n");
     }
 }
 void last_delete()
