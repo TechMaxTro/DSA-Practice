@@ -68,10 +68,10 @@ int main(){
     while (1)
     {
         printf("\n************MENU************ \n");
-        printf("1.Enter 1 to insert element to queue \n");
-        printf("2.Enter 2 to delete element from queue \n");
-        printf("3.Enter 3 to display all elements of queue \n");
-        printf("4.Enter 4 to quit \n");
+        printf("Enter 1 to insert element to queue \n");
+        printf("Enter 2 to delete element from queue \n");
+        printf("Enter 3 to display all elements of queue \n");
+        printf("Enter 4 to quit \n");
         printf("Enter your choice : ");
         scanf("%d", &choice);
 
