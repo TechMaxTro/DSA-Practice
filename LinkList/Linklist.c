@@ -76,7 +76,7 @@ void beginsert()
     }
     else
     {
-        printf("\nEnter value\n");
+        printf("\nEnter value: ");
         scanf("%d", &item);
         ptr->data = item;
         ptr->next = head;
@@ -95,7 +95,7 @@ void lastinsert()
     }
     else
     {
-        printf("\nEnter value?\n");
+        printf("\nEnter value: ");
         scanf("%d", &item);
         ptr->data = item;
         if (head == NULL)
@@ -128,10 +128,10 @@ void randominsert()
     }
     else
     {
-        printf("\nEnter element value");
+        printf("\nEnter value: ");
         scanf("%d", &item);
         ptr->data = item;
-        printf("\nEnter the location after which you want to insert ");
+        printf("\nEnter the location after which you want to insert: ");
         scanf("\n%d", &loc);
         temp = head;
         for (i = 0; i < loc; i++)
@@ -139,7 +139,7 @@ void randominsert()
             temp = temp->next;
             if (temp == NULL)
             {
-                printf("\ncan't insert\n");
+                printf("\nCan't insert\n");
                 return;
             }
         }
@@ -223,7 +223,7 @@ void search()
     }
     else
     {
-        printf("\nEnter item which you want to search?\n");
+        printf("\nEnter item which you want to search: ");
         scanf("%d", &item);
         while (ptr != NULL)
         {
@@ -256,7 +256,7 @@ void display()
     }
     else
     {
-        printf("\nprinting values . . . . .\n");
+        printf("\nPrinting values . . . . .");
         while (ptr != NULL)
         {
             printf("|%d|", ptr->data);
