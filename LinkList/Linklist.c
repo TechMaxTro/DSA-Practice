@@ -256,7 +256,7 @@ void display()
     }
     else
     {
-        printf("\nPrinting values . . . . .\n");
+        printf("\nPrinting values . . .\n");
         while (ptr != NULL)
         {
             printf("|%d|", ptr->data);
